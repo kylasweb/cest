@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "CeStore",
+    "description": "E-commerce app template by React Native and ReactJS, MongodDB, Express (website: spotui.com)",
+    "slug": "CeStore",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "version": "1.1",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/app.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.inspireui.cestore",
+      "buildNumber": "1"
+    },
+    "android": {
+      "versionCode": 3,
+      "package": "com.inspireui.cestore",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "READ_CONTACTS",
+        "NOTIFICATIONS"
+      ]
+    }
+  }
+}
